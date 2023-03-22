@@ -1,0 +1,120 @@
+body {
+  background: #ffff; /* fallback for old browsers */
+}
+
+.form {
+  background-color: white;
+  border-radius: 5px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  /* height: 600px; */
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.form-body > * {
+  padding: 5px;
+}
+
+.form-label {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.form-input {
+  width: 100%;
+ 
+
+}
+
+/* .button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px 10px;
+ 
+} */
+
+
+/* new container css */
+
+/* add-employee-background-container css properties */
+.update-employee-background-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+ /* add-employee-container css properties */
+ .update-employee-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.update-buttons-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.update-button{
+  height: 40px;
+  width: 80px;
+  background-color: blue;
+  border-style: none;
+  border-radius: 5px;
+  color: #ffff;
+}
+
+.update-button:hover{
+  background-color: #ffff;
+  color: blue;
+  border-style: solid;
+  border-color: blue;
+  font-weight: 500;
+}
+
+.cancel-button{
+  height: 40px;
+  width: 80px;
+  background-color: red;
+  border-style: none;
+  border-radius: 5px;
+  color: #ffff;
+}
+
+.cancel-button:hover{
+  background-color: #ffff;
+  color:red;
+  border-style: solid;
+  border-color: red;
+  font-weight: 500;
+}
